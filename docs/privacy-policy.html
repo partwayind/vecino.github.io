@@ -186,7 +186,7 @@
     <div class="container">
         <header>
             <h1>Privacy Policy</h1>
-            <p class="meta">Last Updated: April 14, 2026 | Effective Date: [INSERT LAUNCH DATE]</p>
+            <p class="meta">Last Updated: April 22, 2026 | Effective Date: [INSERT LAUNCH DATE]</p>
         </header>
 
         <div class="toc">
@@ -284,6 +284,7 @@
                 <li>Precise GPS coordinates when you search for nearby work or Neighbors — used on your device for distance calculations and <strong>not stored on our servers</strong></li>
                 <li>Work location coordinates are stored on our servers when you save a work location in your profile settings or create a job listing, and are used for distance-based matching with other Neighbors</li>
                 <li>A 5-mile privacy floor is applied to all displayed distances (distances under 5 miles are shown as "&lt; 5 mi")</li>
+                <li>Address autocomplete: when you type an address into Vecino (e.g., setting your work location, creating a post, or entering an address during sign-up), the partial text you type is forwarded through our server to Mapbox's Geocoding API so we can return address suggestions. Only the typed text — and, when available, an approximate location bias — is sent to Mapbox; your account identity, email, and precise GPS location are not</li>
             </ul>
 
             <h4 style="font-weight: 600; margin-top: 15px;">Device Information:</h4>
@@ -428,9 +429,9 @@
                         <td>Email, username, device tokens</td>
                     </tr>
                     <tr>
-                        <td><strong>Google Geocoding</strong></td>
-                        <td>Location services</td>
-                        <td>GPS coordinates (processed locally, not stored)</td>
+                        <td><strong>Mapbox</strong></td>
+                        <td>Address autocomplete and geocoding (Mapbox Geocoding v6) — turns the partial address you type into suggestions with coordinates</td>
+                        <td>The partial address text you type, plus an approximate location bias when provided (no GPS, email, or account identifier is sent)</td>
                     </tr>
                 </tbody>
             </table>
@@ -658,6 +659,11 @@
                         <td>1.1</td>
                         <td>April 14, 2026</td>
                         <td>Aligned with codebase: updated terminology, corrected data claims, added referral disclosure, clarified vouch visibility, marked planned features</td>
+                    </tr>
+                    <tr>
+                        <td>1.2</td>
+                        <td>April 22, 2026</td>
+                        <td>Disclosed Mapbox as our address autocomplete / geocoding provider (replacing the unused Google Geocoding entry) and added a Location Data bullet describing what is forwarded to Mapbox</td>
                     </tr>
                 </tbody>
             </table>
