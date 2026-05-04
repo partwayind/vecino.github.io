@@ -186,7 +186,7 @@
     <div class="container">
         <header>
             <h1>Privacy Policy</h1>
-            <p class="meta">Last Updated: April 22, 2026 | Effective Date: [INSERT LAUNCH DATE]</p>
+            <p class="meta">Last Updated: May 4, 2026 | Effective Date: [INSERT LAUNCH DATE]</p>
         </header>
 
         <div class="toc">
@@ -429,6 +429,11 @@
                         <td>Email, username, device tokens</td>
                     </tr>
                     <tr>
+                        <td><strong>Firebase Crashlytics (Google LLC)</strong></td>
+                        <td>Crash + non-fatal error reporting for app stability</td>
+                        <td>Crash stack traces, device model, OS version, app version, build mode, user identifier (UUID — no email, no phone) — <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Privacy policy</a></td>
+                    </tr>
+                    <tr>
                         <td><strong>Mapbox</strong></td>
                         <td>Address autocomplete and geocoding (Mapbox Geocoding v6) — turns the partial address you type into suggestions with coordinates</td>
                         <td>The partial address text you type, plus an approximate location bias when provided (no GPS, email, or account identifier is sent)</td>
@@ -465,7 +470,20 @@
             <p>To exercise these rights, contact us at [INSERT CONTACT EMAIL] with the subject line "Data Access Request."</p>
 
             <h3>6.2 Deletion</h3>
-            <p>You can request deletion of your account and associated data. An in-app account deletion feature is being implemented for launch; in the meantime, contact us directly. Upon request, we will delete your personal information within 30 days, except where data is required by law to be retained or is necessary for dispute resolution or fraud prevention.</p>
+            <p>You can request deletion of your account from within the app: <strong>Settings → Delete my account</strong>. Upon request, your account enters a <strong>30-day recovery window</strong>. During the window:</p>
+            <ul>
+                <li>You are signed out of all devices.</li>
+                <li>Logging back in will prompt you to either <strong>recover</strong> the account or <strong>stay deleted</strong>.</li>
+                <li>If you do not recover within 30 days, your account is finalized and cannot be restored.</li>
+            </ul>
+            <p>After the 30-day window:</p>
+            <ul>
+                <li><strong>Profile contents are scrubbed:</strong> username, avatar, encrypted contact info, payment-method references, encryption keys, and notification preferences are cleared.</li>
+                <li><strong>Account email is replaced</strong> with a non-deliverable tombstone in the authentication system so the address cannot be reused for login or receive mail.</li>
+                <li><strong>Push notification binding</strong> is detached.</li>
+                <li><strong>What is preserved</strong> (legally required or load-bearing for other neighbors' records): job offers, payment logs, referral payouts, Job Seal archives, chat messages, and vouches you wrote. These records remain intact, but anywhere your name or avatar would have appeared, the UI will display "Deleted Neighbor."</li>
+            </ul>
+            <p>If you are unable to access the app, you can request deletion via the contact email listed at <a href="https://vecino.io/account-deletion.html">vecino.io/account-deletion.html</a>.</p>
 
             <h3>6.3 Opt-Out Preferences</h3>
             <ul>
