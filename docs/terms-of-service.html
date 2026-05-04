@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service | Vecino</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #4E5666;
+            background-color: #F7F8F9;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 3px solid #4A6FA5;
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            color: #4A6FA5;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .meta {
+            color: #666;
+            font-size: 0.95em;
+        }
+
+        h2 {
+            color: #4A6FA5;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        h3 {
+            color: #325280;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table th, table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        table th {
+            background-color: #FFF3CC;
+            font-weight: 600;
+            color: #1C3458;
+        }
+
+        table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        ul, ol {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .footer {
+            border-top: 1px solid #ddd;
+            margin-top: 40px;
+            padding-top: 20px;
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .note {
+            background-color: #EBF0F8;
+            border-left: 4px solid #4A6FA5;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .warning {
+            background-color: #fff5e6;
+            border-left: 4px solid #ff9800;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .danger {
+            background-color: #fdecea;
+            border-left: 4px solid #c0392b;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        a {
+            color: #4A6FA5;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .toc {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 4px;
+        }
+
+        .toc h3 {
+            margin-top: 0;
+        }
+
+        .toc ol {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        .toc li {
+            margin-bottom: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px 15px;
+            }
+
+            h1 {
+                font-size: 1.8em;
+            }
+
+            h2 {
+                font-size: 1.3em;
+            }
+
+            p {
+                text-align: left;
+            }
+
+            table {
+                font-size: 0.9em;
+            }
+
+            table th, table td {
+                padding: 8px;
+            }
+        }
+
+        @media print {
+            .container {
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Terms of Service</h1>
+            <p class="meta">Effective Date: 2026-05-04 | Version: 2026-05-04</p>
+        </header>
+
+        <div class="toc">
+            <h3>Quick Navigation</h3>
+            <ol>
+                <li><a href="#acceptance">Acceptance</a></li>
+                <li><a href="#account">Account</a></li>
+                <li><a href="#the-service">The Service</a></li>
+                <li><a href="#payment">Payment, Escrow, and Fees</a></li>
+                <li><a href="#job-flow">Closed-Loop Job Flow</a></li>
+                <li><a href="#disputes">Disputes</a></li>
+                <li><a href="#vouches">Vouches and Reputation</a></li>
+                <li><a href="#soft-lock">Soft-Lock Enforcement</a></li>
+                <li><a href="#prohibited">Prohibited Conduct</a></li>
+                <li><a href="#termination">Account Termination and Deletion</a></li>
+                <li><a href="#liability">Disclaimers and Limitation of Liability</a></li>
+                <li><a href="#governing-law">Governing Law and Dispute Resolution</a></li>
+                <li><a href="#changes">Changes to These Terms</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ol>
+        </div>
+
+        <section id="acceptance">
+            <h2>1. Acceptance</h2>
+            <p>
+                By creating a Vecino account or using the Vecino app, you agree to
+                these Terms of Service ("Terms") and to our <a href="privacy-policy.html">Privacy Policy</a>.
+                If you do not agree, do not use the service.
+            </p>
+            <p>
+                These Terms govern the relationship between you ("Neighbor") and
+                <em>[INSERT COMPANY NAME]</em> ("Vecino", "we", "us"), the operator of the
+                Vecino app and the website at vecino.io.
+            </p>
+        </section>
+
+        <section id="account">
+            <h2>2. Account</h2>
+            <ul>
+                <li>You must be at least 16 years old to create an account.</li>
+                <li>You must provide accurate registration information and keep it current.</li>
+                <li>You are responsible for activity under your account and for keeping your password secure.</li>
+                <li>One account per person. Multiple accounts to evade soft-lock, reputation penalties, or block enforcement is prohibited.</li>
+            </ul>
+        </section>
+
+        <section id="the-service">
+            <h2>3. The Service</h2>
+            <p>
+                Vecino is a peer-to-peer marketplace for neighborhood services.
+                Neighbors post work and offer their skills; payment, evidence, and
+                reputation are mediated through the platform.
+            </p>
+            <p>
+                We are a neutral facilitator. We are not a party to the agreements
+                between Neighbors, and we do not employ Neighbors who offer services.
+            </p>
+        </section>
+
+        <section id="payment">
+            <h2>4. Payment, Escrow, and Fees</h2>
+            <ul>
+                <li>Vecino charges a <strong>20% platform fee</strong> on each completed job, split 10/10 between the hiring and offering Neighbor.</li>
+                <li>Payments are held in <strong>escrow</strong> by our payment processor (Stripe) until both parties confirm completion ("mutual completion") or our automatic release rules apply (see §5).</li>
+                <li>We do not directly handle card data. All payment processing is performed by Stripe; their terms apply alongside ours.</li>
+                <li>Refunds and disputes follow the path described in §6.</li>
+            </ul>
+        </section>
+
+        <section id="job-flow">
+            <h2>5. Closed-Loop Job Flow</h2>
+            <p>
+                Each job moves through these stages: Post → Negotiate → Locked
+                Agreement → Workspace → Mutual Completion → Job Seal → Vouch.
+            </p>
+            <ul>
+                <li>The agreement becomes immutable once both sides accept ("locked agreement"). Mid-job changes require a Follow-Up Job, not edits to the original.</li>
+                <li>Funds release only on <strong>mutual completion</strong> (both sides confirm) or via <strong>auto-release</strong> after a 5-day window with no dispute.</li>
+                <li>A <strong>Job Seal</strong> is created on closure: a cryptographically signed, tamper-evident archive containing the agreement, evidence, and payment record. Job Seals are immutable and retained indefinitely.</li>
+            </ul>
+        </section>
+
+        <section id="disputes">
+            <h2>6. Disputes</h2>
+            <ul>
+                <li>Vecino does not adjudicate disputes. We mediate the workflow and preserve evidence; Stripe adjudicates payment disputes via their standard process.</li>
+                <li>A dispute opens a resolution window (configured by Vecino, currently ~7 days). If unresolved, funds release per the auto-release rules.</li>
+                <li>Filing fraudulent disputes or weaponizing the dispute system to evade payment is grounds for account termination.</li>
+            </ul>
+        </section>
+
+        <section id="vouches">
+            <h2>7. Vouches and Reputation</h2>
+            <ul>
+                <li>Vouches (peer reviews containing handshake ratings) are <strong>permanently blind</strong>. Once submitted, you cannot edit, delete, or retract them, and you never see the individual vouch about you — only its aggregate effect on your standing.</li>
+                <li>Buying, selling, or coordinating vouches is prohibited.</li>
+                <li>Your "Vouched" standing (Trust Tier + Risk Class) is computed from job history and may decrease based on completion rates, reliability, and active disputes.</li>
+            </ul>
+        </section>
+
+        <section id="soft-lock">
+            <h2>8. Soft-Lock Enforcement</h2>
+            <p>
+                If you complete a job and do not leave a vouch within the prompt
+                window, posting and offering are blocked until you submit the
+                outstanding vouch. This is a load-bearing trust mechanism, not a
+                penalty.
+            </p>
+        </section>
+
+        <section id="prohibited">
+            <h2>9. Prohibited Conduct</h2>
+            <p>You may not:</p>
+            <ul>
+                <li>Post jobs that violate applicable law, regulation, or local ordinance (drugs, weapons, regulated trades requiring licensing you don't hold, etc.).</li>
+                <li>Use the platform to harass, threaten, or discriminate against other Neighbors.</li>
+                <li>Bypass safety mechanisms (multiple accounts, fake reviews, off-platform payment to evade fees, etc.).</li>
+                <li>Scrape, reverse-engineer, or attempt to reconstruct the platform outside of the public app and APIs.</li>
+                <li>Use Vecino for commercial activity that violates Stripe's prohibited business categories.</li>
+            </ul>
+        </section>
+
+        <section id="termination">
+            <h2>10. Account Termination and Deletion</h2>
+            <ul>
+                <li>You may delete your account at any time via Settings → Delete my account. See the <a href="privacy-policy.html">Privacy Policy §6.2</a> for the deletion flow and retention details.</li>
+                <li>We may suspend or terminate accounts for material breach of these Terms, fraud, or to comply with law. We will provide reasons where legally permitted.</li>
+            </ul>
+        </section>
+
+        <section id="liability">
+            <h2>11. Disclaimers and Limitation of Liability</h2>
+            <ul>
+                <li>The Vecino service is provided <strong>"as is"</strong> without warranties of any kind. We do not guarantee any specific outcome, response time, or service quality from individual Neighbors.</li>
+                <li>We are not responsible for off-platform conduct between Neighbors.</li>
+                <li>To the maximum extent permitted by law, our total liability arising from your use of the service is limited to <strong>the platform fees you paid Vecino in the 12 months preceding the claim</strong>.</li>
+                <li>Nothing in these Terms limits liability for damages that cannot legally be limited (e.g., gross negligence, willful misconduct, or consumer-protection rights that cannot be waived under your jurisdiction's law).</li>
+            </ul>
+        </section>
+
+        <section id="governing-law">
+            <h2>12. Governing Law and Dispute Resolution</h2>
+            <ul>
+                <li>These Terms are governed by the laws of <em>[INSERT US STATE]</em>, without regard to its conflict-of-laws rules.</li>
+                <li>Disputes between you and Vecino will be resolved by binding arbitration on an individual basis under the rules of <em>[INSERT ARBITRATION PROVIDER]</em>, unless prohibited by your jurisdiction's law.</li>
+                <li>You may opt out of arbitration within 30 days of account creation by emailing <em>[INSERT CONTACT EMAIL]</em> with your username and the subject line "Arbitration Opt-Out".</li>
+            </ul>
+        </section>
+
+        <section id="changes">
+            <h2>13. Changes to These Terms</h2>
+            <p>
+                We may update these Terms from time to time. Material changes will be
+                posted at <a href="https://vecino.io/terms-of-service.html">https://vecino.io/terms-of-service.html</a>,
+                and we will prompt you to re-accept on next app launch. Continued use
+                after a posted update constitutes acceptance.
+            </p>
+        </section>
+
+        <section id="contact">
+            <h2>14. Contact</h2>
+            <p>Questions about these Terms or the service:</p>
+            <div class="note">
+                <strong>Email:</strong> <em>[INSERT CONTACT EMAIL]</em><br>
+                <strong>Company:</strong> <em>[INSERT COMPANY NAME]</em><br>
+                <strong>Mailing Address:</strong> <em>[INSERT PHYSICAL ADDRESS]</em>
+            </div>
+        </section>
+
+        <div class="warning">
+            <strong>Draft notice:</strong> This document is a minimum-viable draft pending lawyer review during
+            the Open Testing window. Placeholders in [INSERT ...] format must be filled before public Production launch.
+        </div>
+
+        <div class="footer">
+            <table style="margin: 0 auto 20px auto; width: 80%;">
+                <thead>
+                    <tr>
+                        <th>Version</th>
+                        <th>Date</th>
+                        <th>Changes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2026-05-04</td>
+                        <td>May 4, 2026</td>
+                        <td>Initial Terms of Service (minimum-viable draft)</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>&copy; 2026 Vecino. All rights reserved.</p>
+            <p style="margin-top: 20px; font-style: italic;">See also: <a href="privacy-policy.html">Privacy Policy</a> | <a href="community-guidelines.html">Community Guidelines</a></p>
+        </div>
+    </div>
+</body>
+</html>
